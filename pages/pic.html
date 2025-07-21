@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Jolly Island</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="my.css">
+  <style>
+    body {
+      background: #fdfdfd;
+    }
+ 
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fw-bold" href="#">Jolly Island</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="exibits.html">Exibits</a></li>
+          <li class="nav-item"><a class="nav-link" href="pic.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="price.html">Price</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="booking.html">Online Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Gallery Section -->
+  <section class="container py-5">
+    <div class="section-title">
+      <h2>Gallery</h2>
+      <p>Moments of joy captured at Jolly Island</p>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/softplay1.png" class="img-fluid gallery-image" alt="">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/softplay2.png" class="img-fluid gallery-image" alt="">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/softplay3.png" class="img-fluid gallery-image" alt="">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/p1.jpg" class="img-fluid gallery-image" alt="">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/p2.jpg" class="img-fluid gallery-image" alt="">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/p3.jpg" class="img-fluid gallery-image" alt="">
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="gallery1 mt-4">
+      <ul class="pagination">
+        <li class="page-item active"><a class="page-link" href="pic.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="pic2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="pic3.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="pic2.html">Next</a></li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
